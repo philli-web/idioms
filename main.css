@@ -48,6 +48,14 @@ nav, footer {
   animation: gradient 10s ease infinite;
 }
 
+.card .card-image img {
+    max-height: 310px;
+    padding: 15px;
+    margin: 6px auto;
+    border-radius: 66px;
+    width: auto;
+}
+
 
 @keyframes gradient {
 	0% {
