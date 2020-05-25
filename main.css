@@ -23,6 +23,7 @@ body{
 
 
 .back-to-top {
+  display: none;
   position: fixed;
   right: 10px;
   bottom: 200px;
@@ -150,6 +151,10 @@ nav, footer {
    border-radius: 37px;
    width: auto;
    box-shadow: 0px 0px 8px 0px #00000036;
+}
+
+.brand-logo {
+  width: max-content;
 }
 
 
