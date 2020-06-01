@@ -336,14 +336,19 @@ content.forEach((el) => {
 });
 $(document).ready(function () {
   $(".dws-progress-bar")
+   
     .circularProgress({
       color: "rgba(232, 211, 211, 1)",
-      line_width: 17,
-      height: "350px",
-      width: "350px",
+      line_width: 12,
+      height: "400px",
+      width:"240px",
       percent: 0,
       counter_clockwise: false,
-      starting_position: 25,
+      starting_position: 0,
+     
+   
+      
+    
     })
     .circularProgress("animate", 100, 2000);
 });
@@ -351,23 +356,29 @@ $(document).ready(function () {
 $(window).on("load", function () {
   var $preloader = $("#preloader");
   $preloader.delay(1800).fadeOut("slow");
+ 
 });
 (function ($) {
-  var global_settings = {};
+  var global_settings = {
+   
+  };
 
   var methods = {
     init: function (options) {
       var settings = $.extend(
         {
           color: "#000000",
-          height: "300px",
-          width: "300px",
-          line_width: 8,
-          starting_position: 25,
+          height: "400px",
+          width: "240px",
+          line_width: 12,
+          starting_position:0,
           percent: 100,
           counter_clockwise: false,
           percentage: true,
           text: "",
+          
+       
+         
         },
         options
       );
@@ -412,10 +423,12 @@ $(window).on("load", function () {
     },
     percent: function (value) {
       global_settings.percent = value;
+      
 
       $(this).css({
         height: global_settings.height,
         width: global_settings.width,
+        
       });
 
       $(this).children("canvas").remove();
@@ -428,6 +441,7 @@ $(window).on("load", function () {
       $(this).css({
         height: global_settings.height,
         width: global_settings.width,
+   
       });
 
       var num_of_steps = time / 10;
@@ -440,10 +454,12 @@ $(window).on("load", function () {
           scope.children("canvas").remove();
 
           global_settings.percent += percent_change;
+         
 
           scope.append(createCanvas(scope));
         } else {
           clearInterval(theInterval);
+          
         }
       }, 10);
 
@@ -456,9 +472,11 @@ $(window).on("load", function () {
       return methods[methodOrOptions].apply(
         this,
         Array.prototype.slice.call(arguments, 1)
+        
       );
     } else if (typeof methodOrOptions === "object" || !methodOrOptions) {
       return methods.init.apply(this, arguments);
+      
     } else {
       $.error("Method " + methodOrOptions + " does not exist.");
     }
@@ -542,6 +560,7 @@ $(window).on("load", function () {
     }
 
     return canvas;
+    
   }
 })(jQuery);
 const button = $(".back-to-top");
@@ -561,13 +580,3 @@ button.on("click", (e) => {
     behavior: "smooth",
   });
 });
-
-
-
-
-
-
-
-
-
-
