@@ -301,6 +301,298 @@ const content = [
 
     `,
   },
+  {
+    title: "Caution is the parent of safety",
+    img: "./img/43.png",
+    body: `
+    <p><b>По-английски</b> - Caution is the parent of safety</p>
+
+    <p><b>Перевод</b> - Осторожность — мать безопасности</p>
+    
+    <p><b>Аналог в русском</b> - Береженого и бог бережет</p>
+
+    `,
+  },
+  {
+    title: " Dog eats dog",
+    img: "./img/58.png",
+    body: `
+    <p><b>По-английски</b>- Dog eats dog</p>
+
+    <p><b>Перевод</b>- Собака собаку ест</p>
+    
+    <p><b>Аналог в русском</b> - Человек человеку волк</p>
+
+    `,
+  },
+  {
+    title: "Far from eye, far from heart",
+    img: "./img/82(2).png",
+    body: `
+    <p><b>По-английски</b>- Far from eye, far from heart</p>
+
+    <p><b>Перевод</b>- С глаз долой, из сердца вон</p>
+    
+    <p><b>Аналог в русском</b> - С глаз долой, из сердца вон</p>
+
+    `,
+  },
+  {
+    title: "Fish begins to stink at the head",
+    img: "./img/85.png",
+    body: `
+    <p><b>По-английски</b>- Fish begins to stink at the head</p>
+
+    <p><b>Перевод</b>- Рыба с головы начинает пахнуть</p>
+    
+    <p><b>Аналог в русском</b> - Рыба с головы гниет</p>
+
+    `,
+  },
+  {
+    title: "Out of the frying-pan into the fire",
+    img: "./img/167 (1).png",
+    body: `
+    <p><b>По-английски</b>- Out of the frying-pan into the fire</p>
+
+    <p><b>Перевод</b>- Co сковороды, да в огонь</p>
+    
+    <p><b>Аналог в русском</b> - Из огня, да в полымя</p>
+
+    `,
+  },
+  {
+    title: "Neither fish nor flesh",
+    img: "./img/146.png",
+    body: `
+    <p><b>По-английски</b>- Neither fish nor flesh</p>
+
+    <p><b>Перевод</b>- Ни рыба, ни мясо</p>
+    
+    <p><b>Аналог в русском</b> - Ни рыба, ни мясо</p>
+
+    `,
+  },
+  {
+    title: "Delays are dangerous",
+    img: "./img/52.png",
+    body: `
+    <p><b>По-английски</b>- Delays are dangerous</p>
+
+    <p><b>Перевод</b>- Промедление опасно</p>
+    
+    <p><b>Аналог в русском</b> - Промедление смерти подобно</p>
+
+    `,
+  },
+  {
+    title: "Between two stools",
+    img: "./img/34.png",
+    body: `
+    <p><b>По-английски</b>-Between two stools</p>
+
+    <p><b>Перевод</b>- Между двумя стульямителе</p>
+    
+    <p><b>Аналог в русском</b> - Между двумя стульями</p>
+
+    `,
+  },
+  {
+    title: "Don't whistle (halloo) until you are out of the wood",
+    img: "./img/66.png",
+    body: `
+    <p><b>По-английски</b>-Don't whistle (halloo) until you are out of the wood</p>
+
+    <p><b>Перевод</b>- He насвистывай, пока не выбрался из лесу</p>
+    
+    <p><b>Аналог в русском</b> - Не говори “гоп”, пока не перепрыгнешь</p>
+
+    `,
+  },
+  {
+    title: "Catch the bear before you sell his skin",
+    img: "./img/42.png",
+    body: `
+    <p><b>По-английски</b>-Catch the bear before you sell his skin</p>
+
+    <p><b>Перевод</b>- Прежде поймай медведя, а потом продавай его шкуру</p>
+    
+    <p><b>Аналог в русском</b> - Не дели шкуру неубитого медведя</p>
+
+    `,
+  },
+  {
+    title: "A friend in need is a friend indeed",
+    img: "./img/8.png",
+    body: `
+    <p><b>По-английски</b>- A friend in need is a friend indeed/p>
+
+    <p><b>Перевод</b>- Друг в беде есть настоящий друг</p>
+    
+    <p><b>Аналог в русском</b> - Друзья познаются в беде</p>
+
+    `,
+  },
+  {
+    title: "A stitch in time saves nine",
+    img: "./img/12.png",
+    body: `
+    <p><b>По-английски</b>-A stitch in time saves nine</p>
+
+    <p><b>Перевод</b>-Один стежок, сделанный вовремя, стоит девяти</p>
+    
+    <p><b>Аналог в русском</b> - ороша ложка к обеду</p>
+
+    `,
+  },
+  {
+    title: "A wolf in sheep's clothing",
+    img: "./img/14.png",
+    body: `
+    <p><b>По-английски</b>- A wolf in sheep's clothing</p>
+
+    <p><b>Перевод</b>-Волк в овечьей шкуре</p>
+    
+    <p><b>Аналог в русском</b> -Волк в овечьей шкуре</p>
+
+    `,
+  },
+
+  {
+    title: "As old as the hills",
+    img: "./img/20.png",
+    body: `
+    <p><b>По-английски</b>- As old as the hills</p>
+
+    <p><b>Перевод</b>-Древний, как холмы</p>
+    
+    <p><b>Аналог в русском</b> -Старо как мир</p>
+
+    `,
+  },
+  {
+    title: "Bad news has wings",
+    img: "./img/24.png",
+    body: `
+    <p><b>По-английски</b>- Bad news has wings</p>
+
+    <p><b>Перевод</b>-Дурная весть имеет крылья</p>
+    
+    <p><b>Аналог в русском</b> -Худые вести не лежат на месте</p>
+
+    `,
+  },
+  {
+    title: "As well be hanged for a sheep as for a lamb",
+    img: "./img/21.png",
+    body: `
+    <p><b>По-английски</b>- As well be hanged for a sheep as for a lamb</p>
+
+    <p><b>Перевод</b>-Всё равно за что быть повешенным: за овцу или ягненка</p>
+    
+    <p><b>Аналог в русском</b> - Семь бед — один ответ</p>
+
+    `,
+  },
+  {
+    title: "Better late than never",
+    img: "./img/31.png",
+    body: `
+    <p><b>По-английски</b>-Better late than never</p>
+
+    <p><b>Перевод</b>-Лучше поздно, чем никогда</p>
+    
+    <p><b>Аналог в русском</b> -Лучше поздно, чем никогда</p>
+
+    `,
+  },
+  {
+    title: "Better safe than sorry",
+    img: "./img/32.png",
+    body: `
+    <p><b>По-английски</b>-Better safe than sorry</p>
+
+    <p><b>Перевод</b>-Побережешься вовремя, не о чем будет жалеть после</p>
+    
+    <p><b>Аналог в русском</b> - Бережёного Бог бережёт</p>
+
+    `,
+  },
+  {
+    title: "Curses like chickens come home to roost",
+    img: "./img/49.png",
+    body: `
+    <p><b>По-английски</b>-Curses like chickens come home to roost</p>
+
+    <p><b>Перевод</b>-Проклятия, подобно цыплятам, возвращаются на свой насест</p>
+    
+    <p><b>Аналог в русском</b> -  Не рой другому яму, сам в нее попадешь</p>
+
+    `,
+  },
+  {
+    title: "As sure as eggs is eggs",
+    img: "./img/20.png",
+    body: `
+    <p><b>По-английски</b>-As sure as eggs is eggs</p>
+
+    <p><b>Перевод</b>-Верно, как то, что яйца суть яйца</p>
+    
+    <p><b>Аналог в русском</b> - Как дважды два — четыре</p>
+
+    `,
+  },
+  {
+    title: "At the ends of the earth",
+    img: "./img/23.png",
+    body: `
+    <p><b>По-английски</b>-At the ends of the earth</p>
+
+    <p><b>Перевод</b>-На краю света</p>
+    
+    <p><b>Аналог в русском</b> - У чёрта на куличках</p>
+
+    `,
+  },
+  {
+    title: "Best defence is offence",
+    img: "./img/29.png",
+    body: `
+    <p><b>По-английски</b>-Best defence is offence</p>
+
+    <p><b>Перевод</b>- Нападение — лучший вид защиты</p>
+    
+    <p><b>Аналог в русском</b> - Лучшая защита – нападение</p>
+
+    `,
+  },
+  {
+    title: "Birds of a feather flock together",
+    img: "./img/38.png",
+    body: `
+    <p><b>По-английски</b>-Birds of a feather flock together</p>
+
+    <p><b>Перевод</b>- Птицы одного оперения собираются вместе</p>
+    
+    <p><b>Аналог в русском</b> - Рыбак рыбака видит издалека</p>
+
+    `,
+  },
+  {
+    title: "Divide and rule",
+    img: "./img/55.png",
+    body: `
+    <p><b>По-английски</b>-Divide and rule</p>
+
+    <p><b>Перевод</b>- Разделяй и властвуй</p>
+    
+    <p><b>Аналог в русском</b>- Разделяй и властвуй</p>
+
+    `,
+  },
+
+
+
 ];
 
 const app = document.querySelector("#app");
@@ -335,8 +627,10 @@ content.forEach((el) => {
   );
 });
 $(document).ready(function () {
+  
   $(".dws-progress-bar")
-   
+  
+
     .circularProgress({
       color: "rgba(232, 211, 211, 1)",
       line_width: 12,
@@ -345,26 +639,31 @@ $(document).ready(function () {
       percent: 0,
       counter_clockwise: false,
       starting_position: 0,
-     
-   
+      
+      
       
     
     })
+  
     .circularProgress("animate", 100, 2000);
+ 
+    
 });
 
 $(window).on("load", function () {
   var $preloader = $("#preloader");
   $preloader.delay(1800).fadeOut("slow");
- 
+
+  
 });
 (function ($) {
   var global_settings = {
-   
+     
   };
-
+  
   var methods = {
     init: function (options) {
+     
       var settings = $.extend(
         {
           color: "#000000",
@@ -377,12 +676,16 @@ $(window).on("load", function () {
           percentage: true,
           text: "",
           
+          
        
          
         },
         options
+      
       );
       global_settings = settings;
+     
+          
 
       var percentage = $("<div class='progress-percentage'></div>");
 
@@ -401,6 +704,7 @@ $(window).on("load", function () {
       if (global_settings.starting_position != 100) {
         global_settings.starting_position =
           global_settings.starting_position % 100;
+      
       }
       if (global_settings.ending_position != 100) {
         global_settings.ending_position = global_settings.ending_position % 100;
@@ -412,9 +716,10 @@ $(window).on("load", function () {
       $(this).css({
         height: global_settings.height,
         width: global_settings.width,
+        
       });
       $(this).addClass("circular-progress-bar");
-
+     
       $(this).find("canvas").remove();
 
       $(this).append(createCanvas($(this)));
@@ -472,6 +777,7 @@ $(window).on("load", function () {
       return methods[methodOrOptions].apply(
         this,
         Array.prototype.slice.call(arguments, 1)
+      
         
       );
     } else if (typeof methodOrOptions === "object" || !methodOrOptions) {
@@ -543,6 +849,7 @@ $(window).on("load", function () {
       radius = (canvas_width * 0.9) / 2 - global_settings.line_width * 2;
     } else {
       radius = (canvas_height * 0.9) / 2 - global_settings.line_width * 2;
+     
     }
 
     ctx.arc(
@@ -552,11 +859,13 @@ $(window).on("load", function () {
       starting_radian,
       ending_radian,
       global_settings.counter_clockwise
+     
     );
     ctx.stroke();
 
     if (global_settings.percentage) {
       insertText(scope);
+      
     }
 
     return canvas;
@@ -580,3 +889,28 @@ button.on("click", (e) => {
     behavior: "smooth",
   });
 });
+
+
+var isMobile = {
+  Android:        function() { return navigator.userAgent.match(/Android/i) ? true : false; },
+  BlackBerry:     function() { return navigator.userAgent.match(/BlackBerry/i) ? true : false; },
+  iOS:            function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; },
+  Windows:        function() { return navigator.userAgent.match(/IEMobile/i) ? true : false; },
+  any:            function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());  }
+};
+
+if ( !isMobile.any() ) {
+  DragManager.onDragEnd = function(dragObject) {
+    dragObject.avatar.rollback();
+ };
+   
+ 
+   
+ 
+  
+
+   
+  };
+  
+  
+  
