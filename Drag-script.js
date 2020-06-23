@@ -17,6 +17,8 @@ var DragManager = new function() {
   
       dragObject.downX = e.pageX;
       dragObject.downY = e.pageY;
+     
+
   
       return false;
     }
@@ -84,7 +86,12 @@ var DragManager = new function() {
         position: avatar.position || '',
         left: avatar.left || '',
         top: avatar.top || '',
-        zIndex: avatar.zIndex || ''
+        zIndex: avatar.zIndex || '',
+        transitionProperty: 1000000,
+        snap:  ".card",
+        snapMode: "both",
+        snapTolerance: 50
+
       };
   
       
@@ -97,6 +104,7 @@ var DragManager = new function() {
         avatar.style.left = old.left;
         avatar.style.top = old.top;
         avatar.style.zIndex = old.zIndex;
+       
     
         
      
@@ -137,7 +145,7 @@ var DragManager = new function() {
        
          return null;
       }
-      
+        
           return elem.closest("body");
     }
   

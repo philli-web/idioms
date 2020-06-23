@@ -645,14 +645,15 @@ $(document).ready(function () {
     
     })
   
-    .circularProgress("animate", 100, 2000);
+    .circularProgress("animate", 100, 1718);
  
     
 });
 
 $(window).on("load", function () {
   var $preloader = $("#preloader");
-  $preloader.delay(1800).fadeOut("slow");
+  $preloader.delay(1700).fadeOut("slow");
+  
 
   
 });
@@ -685,7 +686,6 @@ $(window).on("load", function () {
       );
       global_settings = settings;
      
-          
 
       var percentage = $("<div class='progress-percentage'></div>");
 
@@ -911,6 +911,4 @@ if ( !isMobile.any() ) {
 
    
   };
-  
-  
-  
+ 
