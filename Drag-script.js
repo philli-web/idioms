@@ -1,5 +1,6 @@
 if (window.screen.width >= 1240 && window.screen.height >= 768){
-var DragManager = new function() {
+
+  var DragManager = new function() {
 
    
     var dragObject = {};
@@ -119,7 +120,7 @@ var DragManager = new function() {
   
       // инициировать начало переноса
       document.body.appendChild(avatar);
-      avatar.style.zIndex = 9999;
+      avatar.style.zIndex = 7;
       avatar.style.position = 'absolute';
      
   

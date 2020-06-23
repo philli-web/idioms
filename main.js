@@ -626,6 +626,13 @@ content.forEach((el) => {
     `
   );
 });
+
+const article = document.querySelector(".container");
+const progressBar = document.querySelector(".progress");
+
+
+
+
 $(document).ready(function () {
   
   $(".dws-progress-bar")
@@ -892,23 +899,29 @@ button.on("click", (e) => {
 
 
 var isMobile = {
+      
   Android:        function() { return navigator.userAgent.match(/Android/i) ? true : false; },
   BlackBerry:     function() { return navigator.userAgent.match(/BlackBerry/i) ? true : false; },
   iOS:            function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; },
   Windows:        function() { return navigator.userAgent.match(/IEMobile/i) ? true : false; },
-  any:            function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());  }
+  any:            function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows()); },
+ 
+
 };
+
 
 if ( !isMobile.any() ) {
   DragManager.onDragEnd = function(dragObject) {
     dragObject.avatar.rollback();
- };
-   
- 
-   
- 
-  
+ }; 
 
-   
+ window.addEventListener("scroll", () => {
+  let scrollValue = window.scrollY;
+  let articleHeight = article.clientHeight - window.innerHeight;
+
+  let progressPercentage = (scrollValue / articleHeight) * 2560 ;
+
+  progressBar.style.width = progressPercentage + "px";
+}); 
   };
- 
+
