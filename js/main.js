@@ -477,7 +477,7 @@ const content = [
     title: "A friend in need is a friend indeed",
     img: "./img/8.png",
     body: `
-    <p><b>По-английски</b>- A friend in need is a friend indeed/p>
+    <p><b>По-английски</b>- A friend in need is a friend indeed</p>
 
     <p><b>Перевод</b>- Друг в беде есть настоящий друг</p>
     
