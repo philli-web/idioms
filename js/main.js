@@ -477,7 +477,11 @@ const content = [
     title: "A friend in need is a friend indeed",
     img: "./img/8.png",
     body: `
+
     <p><b>По-английски</b>- A friend in need is a friend indeed</p>
+
+    <p><b>По-английски</b>- A friend in need is a friend indeed</p>
+
 
     <p><b>Перевод</b>- Друг в беде есть настоящий друг</p>
     
@@ -980,7 +984,6 @@ var isMobile = {
 
 };
 
-
 if ( !isMobile.any() ) {
   DragManager.onDragEnd = function(dragObject) {
     dragObject.avatar.rollback();
@@ -995,4 +998,13 @@ if ( !isMobile.any() ) {
   progressBar.style.width = progressPercentage + "px";
 }); 
   };
+  document.addEventListener('keydown', runOnKeys);
 
+  function runOnKeys(event) {
+  if (event.code == "KeyW") {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    }); 
+  }
+}
