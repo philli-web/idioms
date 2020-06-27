@@ -104,7 +104,9 @@ body{
   border-radius: 35px;
   -o-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
-    transition:all 0.7s ease;
+  transition:all 0.7s ease;
+  background-size:400% 400%;
+  animation: gradient_0_0 5s ease infinite;
 }
 #device_laptop:hover{
   transform: scale(1.1);
@@ -113,6 +115,9 @@ body{
   -o-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
     transition:all 0.7s ease;
+    background:linear-gradient(100deg, rgba(190, 247, 204, 0.671),rgba(187, 218, 163, 0.87),rgba(120, 145, 118, 0.589),rgba(169, 219, 169, 0.829));
+    background-size:400% 400%;
+    animation: gradient_0_0 5s ease infinite;
 }
 .back-to-top  {
   display: none;
@@ -494,12 +499,13 @@ nav{
     width:22px;
     right: 0px;
     padding:0 38px 51px 14px;
-    background:linear-gradient(45deg, rgba(104, 97, 97, 0.541),rgba(65, 65, 65, 0.658),rgba(139, 139, 139, 0.623),rgba(92, 92, 92, 0.61));
+    background:linear-gradient(100deg, rgba(139, 138, 138, 0.671),rgba(110, 109, 109, 0.74),rgba(139, 139, 139, 0.74),rgba(92, 92, 92, 0.61));
     border-radius: 35px;
     -o-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
-      transition:all 0.7s ease;
-    
+    transition:all 0.7s ease;
+    background-size:400% 400%;
+    animation: gradient_0_0 5s ease infinite;
   }
   #device_android_ios:hover{
     transform: scale(1.1);
@@ -508,6 +514,9 @@ nav{
     -o-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
       transition:all 0.7s ease;
+      background:linear-gradient(100deg, rgba(190, 247, 204, 0.671),rgba(187, 218, 163, 0.87),rgba(120, 145, 118, 0.589),rgba(169, 219, 169, 0.829));
+      background-size:400% 400%;
+      animation: gradient_0_0 5s ease infinite;
   }
 .material-icons.left{
     width: 0;
