@@ -94,8 +94,26 @@ body{
   position: absolute;
   width:max-content;
   user-select: none;
+  position: absolute;
+  display: block;
+  height: 22px;
+  width:22px;
+  right: 0px;
+  padding:0 38px 51px 14px;
+  background:linear-gradient(100deg, rgba(139, 138, 138, 0.671),rgba(110, 109, 109, 0.74),rgba(139, 139, 139, 0.74),rgba(92, 92, 92, 0.61));
+  border-radius: 35px;
+  -o-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+    transition:all 0.7s ease;
 }
-
+#device_laptop:hover{
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -o-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+    transition:all 0.7s ease;
+}
 .back-to-top  {
   display: none;
   position: fixed;
