@@ -118,9 +118,10 @@ body{
   -o-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
     transition:all 0.7s ease;
-    background:linear-gradient(100deg, rgba(190, 247, 204, 0.671),rgba(187, 218, 163, 0.87),rgba(120, 145, 118, 0.589),rgba(169, 219, 169, 0.829));
+    background:linear-gradient(100deg, rgba(190, 247, 204, 0.671),rgba(187, 218, 163, 0.87),rgba(120, 145, 118, 0.589),rgba(169, 219, 169, 0.829),
+     rgba(157, 216, 157, 0.918),rgba(141, 243, 141, 0.767),rgba(135, 255, 135, 0.918));
     background-size:400% 400%;
-    animation: gradient_0_0 5s ease infinite;
+    animation: gradient_0_0 1s ease infinite;
 }
 .back-to-top  {
   display: none;
