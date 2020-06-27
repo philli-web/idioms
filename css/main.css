@@ -292,9 +292,9 @@ nav, footer {
 
 }
 i.material-icons.right{
-    -o-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    transition:all 0.5s ease;
+    -o-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition:all 0.7s ease;
   
 
 }
@@ -302,7 +302,11 @@ i.material-icons.right:hover{
   transform: scale(1.5);
   -moz-transform: scale(1.5);
   -o-transform: scale(1.5);
- }
+  filter: invert(55%);
+  -o-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    transition:all 0.7s ease;
+}
 nav{
   display: flex;
   justify-content: space-around;
