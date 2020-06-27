@@ -549,7 +549,18 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 
  
 }
+@media screen and (max-width:600px){
+  #device_android_ios{
+    left: 25px;
+    padding: 0 33px 45px 14px
+   }
+   
+   nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    line-height: 47px;
+    font-size: 20px;
+  }
 
+}
 @media screen and (max-width:500px) {
  
   nav,footer{
