@@ -470,7 +470,7 @@ nav{
   }
   #device_android_ios{
     position: absolute;
-    left: 43px;
+    left: 25px;
     display: block;
     height: 22px;
     width:22px;
@@ -563,7 +563,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     max-width: 1200px;
  
   }
-
+ 
   
  nav {
   justify-content: center;
