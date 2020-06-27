@@ -470,7 +470,7 @@ nav{
   }
   #device_android_ios{
     position: absolute;
-    left: 25px;
+    left: 55px;
     display: block;
     height: 22px;
     width:22px;
@@ -589,6 +589,15 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
  
 
  }
+ #device_android_ios{
+  left: 25px;
+  padding: 0 33px 45px 14px
+ }
+ 
+ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  line-height: 47px;
+  font-size: 20px;
+}
 footer .footer-copyright .container{
   margin-right: 28.984;
 
