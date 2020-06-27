@@ -26,6 +26,8 @@ div.progress{
     transform: scale(1.5);
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
+    filter: invert(2);
+   
 }
 
 
