@@ -988,6 +988,15 @@ if ( !isMobile.any() ) {
   DragManager.onDragEnd = function(dragObject) {
     dragObject.avatar.rollback();
  }; 
+if (isMobile.any()){
+  $(window).on("load", function () {
+    var $preloader = $("#preloader");
+    $preloader.delay(1950).fadeOut("slow");
+    
+  
+    
+  });
+}
 
  window.addEventListener("scroll", () => {
   let scrollValue = window.scrollY;

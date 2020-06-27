@@ -9,8 +9,9 @@
 div.progress{
    margin-bottom: -2px;
   background: rgb(51, 255, 170);
-  top: 62px;
+  top: 69px;
   height: 2px;
+  margin:0 auto;
  
 }
 
@@ -76,14 +77,24 @@ body{
   background-size:400% 400%;
   animation: gradient_0_0 5s ease infinite;
   overflow-x:hidden;
-
+  
   
 
 
   
 
 }
+#device_android_ios{
+ display: none;
 
+  
+}
+#device_laptop{
+  left:78px;
+  position: absolute;
+  width:max-content;
+  user-select: none;
+}
 
 .back-to-top  {
   display: none;
@@ -171,10 +182,10 @@ body{
   right: 0;
   bottom: 0;
   margin:0;
-  background:linear-gradient(45deg, #cccccc, #8b858b);
+  background:linear-gradient(90deg, #cccccc, #8b858b);
   z-index: 100;
   background-size:400% 400%;
-  animation: gradient_0_0 0s ease infinite;
+  animation: gradient_0_0 5s ease infinite;
   
   
 
@@ -457,6 +468,37 @@ nav{
     box-sizing: border-box;
     
   }
+  #device_android_ios{
+    position: absolute;
+    left: 43px;
+    display: block;
+    height: 22px;
+    width:22px;
+    right: 0px;
+    padding:0 38px 51px 14px;
+    background:linear-gradient(45deg, rgba(104, 97, 97, 0.541),rgba(65, 65, 65, 0.658),rgba(139, 139, 139, 0.623),rgba(92, 92, 92, 0.61));
+    border-radius: 35px;
+    -o-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+      transition:all 0.7s ease;
+    
+  }
+  #device_android_ios:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -o-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+      transition:all 0.7s ease;
+  }
+.material-icons.left{
+    width: 0;
+    height: 0;
+  }
+  #device_laptop{
+    display: none;
+    
+  }
   div.progress{
     
     display:none; 
@@ -469,6 +511,11 @@ footer.page-footer{
   align-items: center;
  
 }
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+
+  line-height: 50px;
+}
+ 
 .row{
    left: 50%;
   text-rendering:optimizeLegibility;
@@ -499,7 +546,7 @@ footer.page-footer{
     border-radius:169px;
  }
 
- 
+
  
 }
 
@@ -613,7 +660,18 @@ footer .footer-copyright .container{
     border-radius:0px 48px  123px 123px;
    
   }
-  
+#device_android_ios{
+ 
+  padding:0 30px 0 14px;
+  top:0;
+  height: 43;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  display: block;
+  font-size: 16px;
+  height: 56px;
+  line-height: 46px;
+}
  
 }
 @media screen and (max-width:250px){
